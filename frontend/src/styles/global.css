@@ -31,4 +31,8 @@
     @apply flex justify-start text-justify items-center gap-2 p-1 text-[#faad14] bg-[#fffbe6] border border-[#ffe58f] border-solid text-sm
   }
 
+  .error {
+    @apply text-red-600
+  }
+
 }

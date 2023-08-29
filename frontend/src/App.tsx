@@ -61,7 +61,15 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/wallet" element={<CreateAccount setWallet={setWallet} setSeedPhrase={setSeedPhrase}/>} />
-          <Route path="/recover" element={<RecoverAccount />} />
+          <Route
+            path="/recover"
+            element={
+              <RecoverAccount
+                setWallet={setWallet}
+                setSeedPhrase={setSeedPhrase}
+              />
+            }
+          />
         </Routes>
       )}
     </div>
