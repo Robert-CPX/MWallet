@@ -35,4 +35,8 @@
     @apply text-red-600
   }
 
+  .logout_btn {
+    @apply rounded-full bg-primary-500 w-[48px] h-[48px] p-1 text-white text-xs
+  }
+
 }
