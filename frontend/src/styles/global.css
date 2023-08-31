@@ -20,7 +20,7 @@
   }
 
   .primary_btn {
-    @apply flex justify-center items-center h-[48px] rounded bg-primary-500
+    @apply h-[48px] rounded-lg bg-primary-500
   }
 
   .secondary_btn {
