@@ -149,8 +149,8 @@ const WalletView = ({
   const logout = () => {
     setSeedPhrase("");
     setWallet("");
-    setNFTs(null);
-    setTokens(null);
+    setNFTs([]);
+    setTokens(undefined);
     setBalance(0);
     navigate("/");
   }

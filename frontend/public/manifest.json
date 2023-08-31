@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MWallet",
+  "description": "A Cross-chain Crypto Wallet Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Wallet"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
